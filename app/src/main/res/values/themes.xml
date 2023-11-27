@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Admin" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="colorPrimaryDark">@color/md_theme_dark_background</item>
+        <item name="colorSurface">#1E1F21</item>
+        <item name="colorPrimary">@color/blue</item>
+
+        <item name="android:windowSplashScreenBackground" tools:ignore="NewApi">
+            @android:color/transparent
+        </item>
+
+        <item name="android:windowSplashScreenAnimatedIcon" tools:ignore="NewApi">
+            @color/md_theme_dark_background
+        </item>
+    </style>
+
+    <style name="Theme.Admin" parent="Base.Theme.Admin" />
+</resources>

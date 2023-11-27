@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.NewsantFragment">
+
+    <View
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_newsant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="API Key"
+        android:textColor="@color/silver"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/action_bar"
+        app:layout_constraintStart_toEndOf="@id/cv_back_arrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:backgroundTint="@android:color/transparent"
+        app:cardCornerRadius="120dp"
+        app:layout_constraintBottom_toBottomOf="@id/action_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="0dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/arrow_back"
+            app:tint="@color/silver" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".25"
+        android:background="@color/silver"
+        app:layout_constraintTop_toBottomOf="@id/action_bar" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/line">
+
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="68aa4736fc894858aae6444ace298429"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="6953a7421bb749c589e687746c85eee8"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="1f4a12d2698e432ea9cf18126dcc7acd"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="4e7d4fdcccdd48e08227328aa23f6d9b"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="10dd379cf1374e96b33c217680d73e4d"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="cea1160f7c2247adb336375b733ff64d"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="b2b7efbf870c4a77bcb3fdb6bee43f4b"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="15e971f11f074f4db7bed0e39d909a1e"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="1e4edca03c0945e2bc5911a7b64ad78b"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="763fd15c883643a8be5e1bf45ddce051"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_eleven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text="random"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_twelve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="8dp"
+            android:text=""
+            android:textColor="@color/text_color" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
